@@ -62,9 +62,7 @@ Vue.component('product', {
                 Add to cart
             </button>
 
-            <div class="cart">
-                <p>Cart({{ cart }})</p>
-            </div>
+            
             <button @click="removeFromCart">Remove from cart</button>
         </div>
    </div>
